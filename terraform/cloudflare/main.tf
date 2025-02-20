@@ -7,11 +7,6 @@ terraform {
   }
 }
 
-# The API token will be pulled from the `CLOUDFLARE_API_TOKEN` environment variable.
-# Note that the API token must have the following permissions:
-# Zone -> Zone Settings: Edit
-# Zone -> DNS: Edit
-# Zone -> Cache Rules: Edit
 provider "cloudflare" {}
 
 resource "cloudflare_zone" "zone" {
