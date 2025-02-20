@@ -1,0 +1,1 @@
+# terraform-vscode-schema-repro
